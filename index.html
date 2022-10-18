@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Rafael Henrique de Sousa Vieira">
+  <meta name="keywords"
+    content="programação, html, css, javascript, frontend mentor, Interactive rating component, Rafael Henrique de Sousa Vieira, Nota Interativa, Frontend, Front, end">
+  <meta name="robots" content="index, follow">
+  <meta name="description"
+    content="This is a nice, small project to practice handling user interactions and updating the DOM. Perfect for anyone who has learned the basics of JavaScript!">
+  <link rel="icon" type="image/png" sizes="32x32" href="/IMG/Nota Interativa/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <link rel="stylesheet" href="/CSS/Nota Interativa/style.css">
+</head>
+
+<body>
+  <main class="grade">
+    <div class="image_star">
+      <img src="/IMG/Nota Interativa/icon-star.svg" alt="icon-star.svg">
+    </div>
+
+    <section class="text">
+      <h1>How did we do?</h1>
+      <p>Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!</p>
+    </section>
+
+    <section class="options">
+      <div class="radio">
+        <label>
+          <input type="radio" name="option" id="option_1">
+          <span>1</span>
+        </label>
+      </div>
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="option" id="option_2">
+          <span>2</span>
+        </label>
+      </div>
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="option" id="option_3">
+          <span>3</span>
+        </label>
+      </div>
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="option" id="option_4">
+          <span>4</span>
+        </label>
+      </div>
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="option" id="option_5">
+          <span>5</span>
+        </label>
+      </div>
+    </section>
+
+    <section class="button">
+      <input type="submit" value="Submit" id="submit" onclick="thankYou()">
+    </section>
+  </main>
+
+  <main class="thank_you hide">
+    <section class="image_thankyou">
+      <img src="/IMG/Nota Interativa/illustration-thank-you.svg" alt="illustration-thank-you.svg">
+    </section>
+
+    <section class="selection">
+      <p>You selected</p>
+      <p id="selection"></p>
+      <p>out of 5</p>
+    </section>
+
+    <section class="text_thankyou">
+      <h1>Thank you!</h1>
+      <p>We appreciate you taking the time to give a rating. If you ever need more support,
+        don't hesitate to get in touch!</p>
+    </section>
+  </main>
+
+  <div class=" attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p>
+    <p>Coded by <a href="https://github.com/RafaelHDSV" target="_blank">Rafael Henrique de Sousa Vieira</a>.</p>
+  </div>
+
+  <script src="/JAVASCRIPT/Nota Interativa/script.js"></script>
+</body>
+
+</html>
